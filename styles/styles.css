@@ -1,0 +1,114 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    padding: 1vw;
+    resize: none;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+    border-style: dashed;
+    outline: none;
+}
+
+.note {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.doneBtn {
+    padding: 1vw;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: #faa404;
+}
+
+.doneBtn:hover {background-color: #db8f00}
+
+.doneBtn:active {
+  background-color: #db8f00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#title {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#createArea {
+    text-align: center;
+    position: relative;
+    /* left: 35vw; */
+    top: 2vw;
+    font-size: 2vw;
+}
+
+.btn {
+    font-size: 2vw;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#addBtn {
+    padding: 1vw;
+    margin-bottom: 5vw;
+    font-size: 3vw;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: #4CAF50;
+}
+
+#addBtn:hover {background-color: #3e8e41}
+
+#addBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#clearBtn {
+    padding: 1vw;
+    margin-bottom: 4vw;
+    font-size: 3vw;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(180, 0, 0);
+}
+
+#clearBtn:hover {background-color:rgb(131, 1, 1)}
+
+#clearBtn:active {
+  background-color: rgb(131, 1, 1);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/* #addBtn {
+    transition-duration: 0.4s;
+    border-radius: 4%;
+    padding: 1vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+#addBtn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#addBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  } */
